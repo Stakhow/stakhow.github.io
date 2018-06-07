@@ -1,0 +1,264 @@
+$font-color: #999999
+$base-color: #008ed6
+$head-color: #1a1a1a
+$bg-color-1: #15141a
+$bg-color-2: #f2f2f2
+$border-color: #e0e0e0
+
+
+@media only screen and (min-device-width : 1025px) and (max-device-width : 2500px)
+	.menu-drop
+		display: none
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px)
+
+	h1
+		font-size: 2.2rem
+	h2
+		font-size: 1.8rem
+	.about
+		// background-size: 55%
+	.testimonials 
+		.wrapper 
+			background-size: 55%
+	.testimonials__content
+		max-width: 47%
+	.features__item
+		margin: 0px 6px 25px
+		flex: 1 330px
+	.about__list
+		li
+			line-height: 25px
+	.plans__item-content
+		padding: 52px 4px 44px
+	.feedback 
+		max-width: 90%
+		padding: 59px 45px 111px
+	.pricing__quote 
+		font-size: 1.1rem
+		padding: 0 10px
+	.menu-drop
+		display: none
+
+
+
+
+
+@media only screen and (min-device-width : 481px) and (max-device-width : 767px)
+	.btn-wrap
+		justify-content: space-between
+		.btn
+			font-weight: 600
+			margin-right: 0
+			height: 40px
+			line-height: 40px
+			width: 46%
+	header
+		.nav
+			display: none
+	#nav-icon1
+		display: block
+	.banner
+		background-size: 50%
+	h1
+		font-size: 2.2rem
+		margin: 0
+	.banner__text
+		width: 53%
+		display: flex
+		flex-flow: column
+		justify-content: space-around
+		h4
+			margin-top: 0
+	h2
+		font-size: 2rem
+	h3
+		font-size: 1.1rem
+	.features__wrap
+		margin-top: 52px
+	.features__item
+		margin: 0 0 25px
+		flex: 1 50%
+		padding: 0 5px
+	.pricing__content
+		margin-top: 0
+	.pricing__quote
+		flex: 1
+		font-size: 1.1rem
+		line-height: 32px
+		font-style: italic
+		color: rgba(255, 255, 255, 0.7)
+		padding: 0 10px
+	.get-it-now
+		h2
+			font-size: 1.1rem
+		h2,div
+			flex: 1
+		.btn-wrap .btn
+			margin: 0
+			font-size: 0.8rem
+			font-weight: 600
+	.plans__wrap
+		margin-top: 0
+		flex-flow: row wrap
+	.plans__item
+		max-width: 49%
+		margin-bottom: 10px
+		box-shadow: 0 0 10px 0px rgba(0,0,0,0.15)
+	.btn
+		width: 135px
+		height: 40px
+		line-height: 40px
+		font-size: 0.8rem
+	.plans__item-price
+		padding: 12px 0
+	.plans__item-content
+		padding: 25px 5px 23px
+	.address
+		padding: 0
+	.feedback
+		max-width: 80%
+		padding: 37px 34px 104px
+		.form-wrap
+			flex-flow: column
+			input, select
+				margin-bottom: 15px
+			.message
+				min-height: 0
+				margin: 0
+				textarea
+					min-height: 100px
+	.feedback__btn
+		margin-top: 15px
+		float: right
+	footer
+		.wrapper
+			padding: 15px 0
+		.social
+			ul
+				margin-bottom: 5px
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px)
+	header
+		.nav
+			display: none
+		#nav-icon1
+			display: block
+	.banner__text
+		width: 100%
+		height: 100%
+		display: flex
+		flex-flow: column
+		justify-content: space-around
+		h1
+			font-size: 2rem
+			margin-top: 0
+		h4
+			margin-top: 0
+	.btn-wrap
+		justify-content: space-around
+	.btn
+		width: 135px
+		height: 40px
+		line-height: 40px
+		font-size: 0.8rem
+		margin: 0
+		margin-top: 7px
+	.heading
+		text-align: center
+		align-items: center
+		h2
+			font-size: 1.65rem
+	.features
+		padding-top: 38px
+		padding-bottom: 25px
+		border-bottom: 1px solid #e0e0e0
+	.features__wrap
+		margin-top: 0
+		flex: 1 100%
+	.features__item
+		flex: 1 auto
+		h3
+			font-size: 1.4rem
+	.about__content 
+		width: 100%
+		padding: 9% 0 17%
+	.about .wrapper
+		background: none
+	.testimonials .wrapper
+		background-position: center bottom
+		background-size: 100%
+	.testimonials__content
+		max-width: 100%
+		padding: 10% 0 15%
+	.testimonials__content
+		max-width: 100%
+		padding: 10% 0 15%
+	.about__content .heading
+		align-items: center
+	.pricing
+		padding: 40px 0
+	.pricing__post
+		flex: 1
+		margin: 0
+		padding: 0 5px
+		.pricing__quote
+			font-size: 1.2rem
+	.get-it-now
+		.wrapper
+			flex-flow: column
+			padding: 10px 0
+		h2
+			font-size: 1.55rem
+			text-align: center
+		.btn-wrap
+			justify-content: space-around
+			width: 100%
+			.btn
+				margin: 0
+	.plans
+		padding: 20px 0
+	.plans__wrap
+		margin-top: 0
+		flex-flow: column
+		.plans__item
+			max-width: 100%
+			margin-bottom: 10px
+	.pricing__content
+		margin-top: 0
+	.plans__item-price
+		padding: 15px 0
+	.plans__item-content
+		padding: 35px 5px
+		margin: 0
+	.contact__wrap
+		flex-flow: column
+		.contact__item
+			margin-bottom: 40px
+			// box-shadow: 0 0 10px 0px rgba(0,0,0,0.15)
+	.feedback
+		margin: 0
+		max-width: 100%
+		padding: 27px 5px 60px
+		.form-wrap
+			flex-flow: column
+			input, select
+				margin-bottom: 10px
+			.message
+				margin: 0
+				min-height: auto
+				textarea
+					min-height: 100px
+	.contact__item
+		span
+			font-size: 1.5rem
+			color: #008ed6
+			margin-bottom: 15px
+	footer
+		.wrapper
+			padding: 20px 0
+			.copyrights
+				font-size: 0.775rem
+			.social
+				ul
+					margin-bottom: 0
