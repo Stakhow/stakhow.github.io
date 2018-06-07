@@ -1,0 +1,38 @@
+@media only screen and (min-device-width: 320px) and (max-device-width: 1024px) {
+  header {
+    position: relative; }
+
+  h1 {
+    font-size: 4rem; }
+
+  .main {
+    background-size: auto, cover;
+    background-position: top center, top center; }
+
+  #content .contentLink {
+    width: 95%; }
+
+  .welcome .down {
+    margin: 50px auto 70px; } }
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
+  h1 {
+    font-size: 3rem; }
+
+  nav {
+    flex-flow: column; }
+    nav .mainLink {
+      padding: 15px 0; } }
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  h1 {
+    font-size: 2.5rem;
+    letter-spacing: 5px; }
+
+  .navigate {
+    text-align: center; }
+    .navigate a {
+      padding: 12px 0; }
+
+  nav .mainLink {
+    padding: 27px 0 9px; } }
+
+/*# sourceMappingURL=media.css.map */
